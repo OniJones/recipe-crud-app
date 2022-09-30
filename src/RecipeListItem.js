@@ -7,7 +7,7 @@ export const RecipeListItem = (recipe) => {
       <td>{recipe.name}</td>
       <td>{recipe.cuisine}</td>
       <td>
-        <img src={recipe.photo} alt="food phot" />
+        <img src={recipe.photo} alt="food photo" />
       </td>
       <td className="content_td">
         <p>{recipe.ingredients}</p>
